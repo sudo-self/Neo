@@ -6,7 +6,7 @@ const animate = async () => {
     animation = true;
   
     term.clear().set_prompt('');
-    await term.set_prompt('Wake up...', { typing: true });
+    await term.set_prompt('Wake up...NEO', { typing: true });
     await delay(5000);
     term.set_prompt('');
     await term.set_prompt('The Matrix has you...', { typing: true });
@@ -14,7 +14,7 @@ const animate = async () => {
     term.set_prompt('');
     await term.set_prompt('Follow the white rabbit.', { typing: true });
     await delay(5000);
-    term.set_prompt('Knock, knock, Karla.');
+    term.set_prompt('Knock, knock, NEO.');
     await delay(5000);
     term.set_prompt('');
     animation = false;
